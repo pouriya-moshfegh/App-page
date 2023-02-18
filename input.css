@@ -3,15 +3,21 @@
 @tailwind utilities;
 
 @layer components {
-  .paragraph-md {
+  .paragraph-lg {
     @apply max-w-3xl mx-auto mb-10 md:text-xl text-grayishBlue;
   }
-  .title-md{
-    @apply mb-8 text-2xl  font-bold text-darkGrayishBlue md:text-5xl
+  .paragraph-md {
+    @apply max-w-2xl mx-auto mb-10 md:text-xl w-1/2 text-grayishBlue;
+  }
+  .title-lg {
+    @apply mb-8 text-2xl font-bold text-darkGrayishBlue md:text-5xl;
+  }
+  .title-md {
+    @apply mb-4 text-2xl font-bold text-darkGrayishBlue mt-8;
   }
 }
-body{
-background-image: url('/images/bg-header-desktop.png');
-background-repeat: no-repeat;
-background-size: contain;
+body {
+  background-image: url("/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
