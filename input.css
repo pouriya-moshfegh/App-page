@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .paragraph-md {
+    @apply max-w-3xl mx-auto mb-10 md:text-xl text-grayishBlue;
+  }
+  .title-md{
+    @apply mb-8 text-2xl  font-bold text-darkGrayishBlue md:text-5xl
+  }
+}
 body{
 background-image: url('/images/bg-header-desktop.png');
 background-repeat: no-repeat;
 background-size: contain;
-
 }
