@@ -1,5 +1,5 @@
 {
-  "name": "App page",
+  "name": "app-page",
   "version": "1.0.0",
   "description": "Simple file structure for Tailwind projects",
   "main": "index.js",
